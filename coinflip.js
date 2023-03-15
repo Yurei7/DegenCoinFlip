@@ -1,14 +1,14 @@
 function darkMode() {
     document.querySelector("body").style.backgroundColor = "#2D2727";
-    document.querySelector(".darkmode").style.visibility="hidden";
+    document.querySelector(".darkmode").style.visibility = "hidden";
     document.querySelector("body").style.color = "white";
-    document.querySelector(".lightmode").style.visibility="visible";
+    document.querySelector(".lightmode").style.visibility = "visible";
 
 }
 
 function lightMode() {
     document.querySelector("body").style.backgroundColor = "white";
-    document.querySelector(".lightmode").style.visibility="hidden";
+    document.querySelector(".lightmode").style.visibility = "hidden";
     document.querySelector(".darkmode").style.visibility = "visible";
     document.querySelector("body").style.color = "black";
 
