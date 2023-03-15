@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    background-color: white;
+}
+
+.prompt {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 100px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    visibility: hidden;
+
+
+}
+
+.subtitle {
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    margin-top: 20px;
+    visibility: hidden;
+    
+
+
+
+}
+
+#displaytails {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top:45%;
+    visibility: hidden;
+}
+
+#displayheads {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 53%;
+    top: 45%;
+    visibility: hidden;
+}
+
+.displaybutton {
+
+    position: absolute;
+    right: 7.5%;
+    top: 12%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.tailsbutton {
+
+    background-color: #FFED00;
+    border: solid;
+    border-width: 1px;
+    font-size: 30px;
+    padding: 15px 30px 15px 30px;
+    font-family: 'PT Serif', serif;
+    position: absolute;
+    top: 35%;
+    right: 37%;
+    letter-spacing: 1;
+    cursor: pointer;
+    visibility: hidden;
+
+
+}
+
+.headsbutton {
+
+    background-color: #FFED00;
+    border: solid;
+    border-width: 1px;
+    font-size: 30px;
+    padding: 15px 30px 15px 30px;
+    font-family: 'PT Serif', serif;
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    letter-spacing: 1;
+    cursor: pointer;
+    visibility: hidden
+
+}
+
+.result {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 41%;
+    top: 45%;
+    visibility:hidden ;
+
+}
+
+
+.flipping {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+top: 45%;
+right: 46%;
+}
+
+.flippingbar {
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    right: 42%;
+}
+
+.flipmessage {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 75px;
+    width: 900px;
+    position: absolute;
+    top: 10%;
+    left: 19%;
+
+}

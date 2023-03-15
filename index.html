@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Degen Coin Flip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&family=Tilt+Warp&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <h1>Heads Or Tails?</h1>
+    <h1 class="prompt">HEADS OR TAILS?</h1>
+    <h2 class="subtitle">I LIKE</h2>
+    <h2 class="flipmessage" >FLIPPING...DO NOT REFRESH PAGE.</h2>
+    <button class="headsbutton" onclick="flip()" >HEADS</button>
+    <button class="tailsbutton" onclick="flip()">TAILS </button>
+    <img class="result" src="https://media.tenor.com/4WvOvFrOA6cAAAAi/coin-coi.gif" alt="">
+<img class="flipping" src="https://media.tenor.com/dccYaC2Ber8AAAAi/coin-spin.gif" alt="">
+<img class="flippingbar" src="https://media.tenor.com/IESk2X7FqlEAAAAi/windows-xp-loading.gif" alt="">
+    <button class="displaybutton" onclick="display()">Dark Mode</button>
+    <img id="displayheads"src="images/heads.png" alt="">
+    <img id="displaytails"  src="images/tails.png" alt="">
 
-    
+    <script src="coinflip.js"></script>
 </body>
+
 </html>
