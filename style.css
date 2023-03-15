@@ -9,17 +9,17 @@ body {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 10px;
-    visibility: hidden;
+    visibility: visible;
 
 
 }
 
 .subtitle {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'PT Serif', serif;
     margin-top: 20px;
-    visibility: hidden;
-    
+    visibility: visible;
+
 
 
 
@@ -31,8 +31,8 @@ body {
     position: absolute;
     margin: auto;
     left: 50%;
-    top:45%;
-    visibility: hidden;
+    top: 45%;
+    visibility: visible;
 }
 
 #displayheads {
@@ -41,10 +41,10 @@ body {
     position: absolute;
     right: 53%;
     top: 45%;
-    visibility: hidden;
+    visibility: visible;
 }
 
-.displaybutton {
+.darkmode {
 
     position: absolute;
     right: 7.5%;
@@ -58,39 +58,55 @@ body {
 
 }
 
+.lightmode {
+
+    position: absolute;
+    right: 7.5%;
+    top: 12%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    visibility: hidden;
+}
+
+
+
 .tailsbutton {
 
-    background-color: #FFED00;
+    background-color: #ffd11a
+    ;
     border: solid;
     border-width: 1px;
     font-size: 30px;
-    padding: 15px 30px 15px 30px;
+    padding: 10px 30px 10px 30px;
     font-family: 'PT Serif', serif;
     position: absolute;
     top: 35%;
     right: 37%;
     letter-spacing: 1;
     cursor: pointer;
-    visibility: hidden;
+    visibility: visible;
 
 
 }
 
 .headsbutton {
 
-    background-color: #FFED00;
+    background-color: #ffd11a;
     border: solid;
     border-width: 1px;
     font-size: 30px;
-    padding: 15px 30px 15px 30px;
+    padding: 10px 30px 10px 30px;
     font-family: 'PT Serif', serif;
     position: absolute;
     top: 35%;
     left: 37%;
     letter-spacing: 1;
     cursor: pointer;
-    visibility: hidden
-
+    visibility: visible
 }
 
 .result {
@@ -99,7 +115,7 @@ body {
     position: absolute;
     right: 41%;
     top: 45%;
-    visibility:hidden ;
+    visibility: hidden;
 
 }
 
@@ -108,8 +124,9 @@ body {
     height: 150px;
     width: 150px;
     position: absolute;
-top: 45%;
-right: 46%;
+    top: 45%;
+    right: 46%;
+    visibility: hidden;
 }
 
 .flippingbar {
@@ -118,6 +135,7 @@ right: 46%;
     position: absolute;
     top: 70%;
     right: 42%;
+    visibility: hidden;
 }
 
 .flipmessage {
@@ -127,5 +145,6 @@ right: 46%;
     position: absolute;
     top: 10%;
     left: 19%;
+    visibility: hidden;
 
 }
